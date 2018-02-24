@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="http://localhost:8008/public/vendors/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost:8008/public/vendors/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://localhost:8008/public/css/index.css">
+        <title>Index</title>
+    </head>
+    <body ng-app="crud-app" ng-controller="crud-controller">
+        <section class="navbar">
+            <section class="navbar-brand">
+                <button class="nav-brand-btn" onclick="window.location.replace('http://localhost:8008')"><i class="fa fa-home"></i></button>
+            </section>
+            <div class="nav-intro"><p>By &copy; Asif Ahmed</p></div>
+        </section>
+
+        <section class="wrapper">
+            <section id="nav-sidebar">
+                <section class="sidebar">
+                    <section><button class="sidebar-btn" onclick="window.location.replace('http://localhost:8008/views/pages/addform.html')">Add New</button></section>
+                </section>
+            </section>
+            <section class="page">
+                <table class="grid-table table table-sm table-bordered table-hover">
+                    <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email Id</th>
+                                <th>Phone Number</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            </tr>
+                        
+                    </thead>
+                    <tbody>
+                            <tr ng-repeat="d in data">
+                                <td>{{d.personname}}</td>
+                                <td>{{d.email}}</td>
+                                <td>{{d.phno}}</td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+                </section>                
+        </section>
+    </body>
+    <script src="http://localhost:8008/public/vendors/angular.min.js"></script>
+    <script src="http://localhost:8008/public/vendors/jquery-3.1.1.min.js"></script>
+    <script src="http://localhost:8008/public/vendors/popper.min.js"></script>
+    <script src="http://localhost:8008/public/vendors/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>    
+    <script src="http://localhost:8008/public/js/controller.js"></script>    
+</html>
+

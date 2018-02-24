@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../public/vendors/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../public/vendors/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../public/css/index.css">
+        <title>Add New</title>
+    </head>
+    <body ng-app="crud-app" ng-controller="crud-controller">
+
+        <section class="navbar">
+                <section class="navbar-brand">
+                <button class="nav-brand-btn" onclick="window.location.replace('./index.html')"><i class="fa fa-home"></i></button>
+            </section>
+        </section>
+
+        <section class="wrapper">
+                <section id="nav-sidebar">
+                    </section>
+            <section class="page">  
+                <section class="heading">Insert Detail</section>
+                <section>
+                    <form>
+                        <table class="table grid-table">
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name" ng-model="name"></td>
+                            </tr>
+                            <tr>
+                                <td>Email ID:</td>
+                                <td><input type="text" name="email" ng-model="email"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone No:</td>
+                                <td><input type="text" name="phno" ng-model="phno"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button ng-click="put()">Submit</button></td>
+                            </tr>
+                        </table>                        
+                    </form>
+                </section>
+            </section>                
+        </section>
+    </body>
+    <script src="../../public/vendors/angular.min.js"></script>
+    <script src="../../public/vendors/jquery-3.1.1.min.js"></script>
+    <script src="../../public/vendors/popper.min.js"></script>
+    <script src="../../public/vendors/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>    
+    <script src="../../public/js/controller.js"></script>    
+</html>

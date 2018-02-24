@@ -1,0 +1,21 @@
+<section class="heading">Show Product</section>
+<table class="grid-table table table-sm table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Person Name</th>
+            <th>E-mail Id</th>
+            <th>Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of datagrid">
+        <td>{{row.personname}}</td>
+        <td>{{row.email}}</td>
+        <td>{{row.phno}}</td>
+      </tr>
+    </tbody>
+</table>
+
+<div>
+    {{report}}
+</div>

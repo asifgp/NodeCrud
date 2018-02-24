@@ -1,0 +1,36 @@
+<!-- Navigration Bar -->
+<section class="navbar">
+    <section class="navbar-brand">
+        <button class="nav-brand-btn" onclick="window.location.replace('./index.html')"><i class="fa fa-home"></i></button>
+    </section>
+    <div class="nav-intro"><p>By &copy; Asif Ahmed</p></div>
+</section>
+<!-- Body-Section -->
+<section class="wrapper">
+
+    <!-- Sidebar Begins  -->
+    <section id="nav-sidebar">
+        <section class="sidebar">
+            <section>
+                <button class="sidebar-btn" onclick="window.location.replace('./transactionaddform.php')">
+                    Add Transaction
+                </button>
+            </section>
+            <section><button class="sidebar-btn" onclick="window.location.replace('./stockhistorygrid.php?type=transaction')">Transaction Detail</button></section>
+            <section><button class="sidebar-btn" onclick="window.location.replace('./stockaddform.php')">Add To Stock</button></section>
+            <section><button class="sidebar-btn" onclick="window.location.replace('./stockhistorygrid.php?type=stock')">Show Stock Detail</button></section>
+            <section><button class="sidebar-btn" onclick="window.location.replace('./manage_item.html')">Add Item</button></section>
+            <section><button class="sidebar-btn" onclick="window.location.replace('./show_item.php')">Show Item</button></section>
+            <section><a class="sidebar-btn" routerLink="/assert-form" routerLinkActive="active">Add New Product</a></section>
+            <section><a class="sidebar-btn" routerLink="/assert-view" routerLinkActive="active">Show Products</a></section>
+        </section>
+    </section><!-- Sidebar Ends  -->
+    <!-- Page-Body -->
+    <section class="page">
+        <router-outlet></router-outlet>
+    </section>                
+</section>
+    
+
+
+

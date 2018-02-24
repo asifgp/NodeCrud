@@ -1,0 +1,11 @@
+{
+  "name": "crud_test",
+  "description": "for crud testing",
+  "main": "index.js",
+  "authors": [
+    "asif ahmed"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true
+}

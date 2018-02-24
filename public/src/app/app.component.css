@@ -1,0 +1,81 @@
+body{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.nav-brand{
+    height: 100%;
+}
+
+.nav-brand-btn{
+    background-color: transparent;
+    width: 55px;
+    height: 100%;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.wrapper{
+    height: 900px;
+    width: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-right: 1px solid gray;
+}
+
+.page{
+    height: 100%;
+    width: 84%;    
+    float: left;
+}
+
+.sidebar-btn{
+    height: 55px;
+    width: 100%;
+    color: blue;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid darkseagreen;
+    background-color: transparent;
+}
+
+
+.grid-table{
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heading{
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.intro *{
+    margin: 20px 0px 0px 0px;
+    text-align: right;
+}
+
+
+
+.nav-intro {
+    font-weight: bolder;
+}
+
+

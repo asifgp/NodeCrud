@@ -1,0 +1,20 @@
+[
+    {
+        "Serial_Number" : "001",
+        "Item_Name" : "itemone",
+        "Product_Name" : "prodone",
+        "Make" : "0215"
+    },
+    {
+        "Serial_Number" : "002",
+        "Item_Name" : "itemtwo",
+        "Product_Name" : "prodtwo",
+        "Make" : "0215"
+    },
+    {
+        "Serial_Number" : "003",
+        "Item_Name" : "itemthree",
+        "Product_Name" : "prodthree",
+        "Make" : "0215"
+    }
+]
